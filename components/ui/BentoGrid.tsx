@@ -55,7 +55,7 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     if (typeof navigator !== "undefined" && navigator.clipboard) {
-      navigator.clipboard.writeText("soumyajitsanyal@gmail.com");
+      navigator.clipboard.writeText("soumyajitsanyal02@gmail.com");
       setCopied(true);
       setTimeout(() => setCopied(false), 3000); // Reset animation
     }
@@ -155,7 +155,7 @@ export const BentoGridItem = ({
                       autoplay: true,
                       animationData,
                       rendererSettings: {
-                        preserveAspectRatio: "xMidYMid slice",
+                        preserveAspectRatio: "XMidYMid slice",
                       },
                     }}
                     height={100}

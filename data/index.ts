@@ -1,3 +1,4 @@
+import { link } from "fs";
 
 
 export const navItems = [
@@ -215,18 +216,26 @@ export const navItems = [
   //     thumbnail: "/exp4.svg",
   //   },
   // ];
+  export type Social = {
+    id: number;
+    img: string;
+    href: string;
+  };
   
-  export const socialMedia = [
+  export const socialMedia: Social[] = [
     {
       id: 1,
       img: "/git.svg",
+      href: "https://github.com/SOUMYAJITSTONE",
     },
     {
       id: 2,
       img: "/twit.svg",
+      href: "https://x.com/SoumyajitS46190",
     },
     {
       id: 3,
       img: "/link.svg",
+      href: "https://www.linkedin.com/in/thesoumyajitsanyal/",
     },
   ];
